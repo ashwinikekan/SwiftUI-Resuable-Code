@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A64F6FAD20F5A773902698C /* Pods_TadaMVLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A34BA5271333031C060B3AC /* Pods_TadaMVLTests.framework */; };
+		95D950DADC532AE435050BE8 /* Pods_TadaMVL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E235B256B284ADA3AA5A2171 /* Pods_TadaMVL.framework */; };
+		F17B5B7B9E5041060DC928E8 /* Pods_TadaMVL_TadaMVLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF2646B25D10643570EF380 /* Pods_TadaMVL_TadaMVLUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4878DD7F2FB0AFBF00E0A016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4878DD692FB0AFBE00E0A016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4878DD702FB0AFBE00E0A016;
+			remoteInfo = TadaMVL;
+		};
+		4878DD892FB0AFBF00E0A016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4878DD692FB0AFBE00E0A016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4878DD702FB0AFBE00E0A016;
+			remoteInfo = TadaMVL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CBFD968299A49CA7A7CCBEF /* Pods-TadaMVL-TadaMVLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaMVL-TadaMVLUITests.debug.xcconfig"; path = "Target Support Files/Pods-TadaMVL-TadaMVLUITests/Pods-TadaMVL-TadaMVLUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EE67835BA3E513DC2BD36B7 /* Pods-TadaMVL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaMVL.release.xcconfig"; path = "Target Support Files/Pods-TadaMVL/Pods-TadaMVL.release.xcconfig"; sourceTree = "<group>"; };
+		420BE306F7B65610418A0EC9 /* Pods-TadaMVLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaMVLTests.debug.xcconfig"; path = "Target Support Files/Pods-TadaMVLTests/Pods-TadaMVLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		480743C12FB0E67E00391496 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4878DD712FB0AFBE00E0A016 /* TadaMVL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TadaMVL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4878DD7E2FB0AFBF00E0A016 /* TadaMVLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TadaMVLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4878DD882FB0AFBF00E0A016 /* TadaMVLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TadaMVLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A34BA5271333031C060B3AC /* Pods_TadaMVLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TadaMVLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C6977C74ED214D6E202C88 /* Pods-TadaMVLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaMVLTests.release.xcconfig"; path = "Target Support Files/Pods-TadaMVLTests/Pods-TadaMVLTests.release.xcconfig"; sourceTree = "<group>"; };
+		9EF2646B25D10643570EF380 /* Pods_TadaMVL_TadaMVLUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TadaMVL_TadaMVLUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B5A760B2B388959485329D /* Pods-TadaMVL-TadaMVLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaMVL-TadaMVLUITests.release.xcconfig"; path = "Target Support Files/Pods-TadaMVL-TadaMVLUITests/Pods-TadaMVL-TadaMVLUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D3FB7593B1D23A9EBCFA8725 /* Pods-TadaMVL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaMVL.debug.xcconfig"; path = "Target Support Files/Pods-TadaMVL/Pods-TadaMVL.debug.xcconfig"; sourceTree = "<group>"; };
+		E235B256B284ADA3AA5A2171 /* Pods_TadaMVL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TadaMVL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		480743C52FB0E7F100391496 /* Exceptions for "TadaMVL" folder in "TadaMVL" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4878DD702FB0AFBE00E0A016 /* TadaMVL */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4878DD732FB0AFBE00E0A016 /* TadaMVL */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				480743C52FB0E7F100391496 /* Exceptions for "TadaMVL" folder in "TadaMVL" target */,
+			);
+			path = TadaMVL;
+			sourceTree = "<group>";
+		};
+		4878DD812FB0AFBF00E0A016 /* TadaMVLTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TadaMVLTests;
+			sourceTree = "<group>";
+		};
+		4878DD8B2FB0AFBF00E0A016 /* TadaMVLUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TadaMVLUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4878DD6E2FB0AFBE00E0A016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D950DADC532AE435050BE8 /* Pods_TadaMVL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4878DD7B2FB0AFBF00E0A016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A64F6FAD20F5A773902698C /* Pods_TadaMVLTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4878DD852FB0AFBF00E0A016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17B5B7B9E5041060DC928E8 /* Pods_TadaMVL_TadaMVLUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C5E9A2E06F39CDB1C4B316F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3FB7593B1D23A9EBCFA8725 /* Pods-TadaMVL.debug.xcconfig */,
+				3EE67835BA3E513DC2BD36B7 /* Pods-TadaMVL.release.xcconfig */,
+				0CBFD968299A49CA7A7CCBEF /* Pods-TadaMVL-TadaMVLUITests.debug.xcconfig */,
+				D0B5A760B2B388959485329D /* Pods-TadaMVL-TadaMVLUITests.release.xcconfig */,
+				420BE306F7B65610418A0EC9 /* Pods-TadaMVLTests.debug.xcconfig */,
+				98C6977C74ED214D6E202C88 /* Pods-TadaMVLTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4878DD682FB0AFBE00E0A016 = {
+			isa = PBXGroup;
+			children = (
+				4878DD732FB0AFBE00E0A016 /* TadaMVL */,
+				4878DD812FB0AFBF00E0A016 /* TadaMVLTests */,
+				4878DD8B2FB0AFBF00E0A016 /* TadaMVLUITests */,
+				4878DD722FB0AFBE00E0A016 /* Products */,
+				2C5E9A2E06F39CDB1C4B316F /* Pods */,
+				5875A90425C35316389FB5ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4878DD722FB0AFBE00E0A016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4878DD712FB0AFBE00E0A016 /* TadaMVL.app */,
+				4878DD7E2FB0AFBF00E0A016 /* TadaMVLTests.xctest */,
+				4878DD882FB0AFBF00E0A016 /* TadaMVLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5875A90425C35316389FB5ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				480743C12FB0E67E00391496 /* Alamofire.framework */,
+				E235B256B284ADA3AA5A2171 /* Pods_TadaMVL.framework */,
+				9EF2646B25D10643570EF380 /* Pods_TadaMVL_TadaMVLUITests.framework */,
+				7A34BA5271333031C060B3AC /* Pods_TadaMVLTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4878DD702FB0AFBE00E0A016 /* TadaMVL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4878DD922FB0AFBF00E0A016 /* Build configuration list for PBXNativeTarget "TadaMVL" */;
+			buildPhases = (
+				E94101713D9C3CDA1ABB97BD /* [CP] Check Pods Manifest.lock */,
+				4878DD6D2FB0AFBE00E0A016 /* Sources */,
+				4878DD6E2FB0AFBE00E0A016 /* Frameworks */,
+				4878DD6F2FB0AFBE00E0A016 /* Resources */,
+				90E4D157EA46E212125029DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4878DD732FB0AFBE00E0A016 /* TadaMVL */,
+			);
+			name = TadaMVL;
+			productName = TadaMVL;
+			productReference = 4878DD712FB0AFBE00E0A016 /* TadaMVL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4878DD7D2FB0AFBF00E0A016 /* TadaMVLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4878DD952FB0AFBF00E0A016 /* Build configuration list for PBXNativeTarget "TadaMVLTests" */;
+			buildPhases = (
+				9F5548E7EAAC8611558B4AAF /* [CP] Check Pods Manifest.lock */,
+				4878DD7A2FB0AFBF00E0A016 /* Sources */,
+				4878DD7B2FB0AFBF00E0A016 /* Frameworks */,
+				4878DD7C2FB0AFBF00E0A016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4878DD802FB0AFBF00E0A016 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4878DD812FB0AFBF00E0A016 /* TadaMVLTests */,
+			);
+			name = TadaMVLTests;
+			productName = TadaMVLTests;
+			productReference = 4878DD7E2FB0AFBF00E0A016 /* TadaMVLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4878DD872FB0AFBF00E0A016 /* TadaMVLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4878DD982FB0AFBF00E0A016 /* Build configuration list for PBXNativeTarget "TadaMVLUITests" */;
+			buildPhases = (
+				463329E5A827ECAD8A59BE21 /* [CP] Check Pods Manifest.lock */,
+				4878DD842FB0AFBF00E0A016 /* Sources */,
+				4878DD852FB0AFBF00E0A016 /* Frameworks */,
+				4878DD862FB0AFBF00E0A016 /* Resources */,
+				3B20799D08A2B5E2982E94EF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4878DD8A2FB0AFBF00E0A016 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4878DD8B2FB0AFBF00E0A016 /* TadaMVLUITests */,
+			);
+			name = TadaMVLUITests;
+			productName = TadaMVLUITests;
+			productReference = 4878DD882FB0AFBF00E0A016 /* TadaMVLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4878DD692FB0AFBE00E0A016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					4878DD702FB0AFBE00E0A016 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					4878DD7D2FB0AFBF00E0A016 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = 4878DD702FB0AFBE00E0A016;
+					};
+					4878DD872FB0AFBF00E0A016 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = 4878DD702FB0AFBE00E0A016;
+					};
+				};
+			};
+			buildConfigurationList = 4878DD6C2FB0AFBE00E0A016 /* Build configuration list for PBXProject "TadaMVL" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4878DD682FB0AFBE00E0A016;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4878DD722FB0AFBE00E0A016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4878DD702FB0AFBE00E0A016 /* TadaMVL */,
+				4878DD7D2FB0AFBF00E0A016 /* TadaMVLTests */,
+				4878DD872FB0AFBF00E0A016 /* TadaMVLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4878DD6F2FB0AFBE00E0A016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4878DD7C2FB0AFBF00E0A016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4878DD862FB0AFBF00E0A016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B20799D08A2B5E2982E94EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TadaMVL-TadaMVLUITests/Pods-TadaMVL-TadaMVLUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TadaMVL-TadaMVLUITests/Pods-TadaMVL-TadaMVLUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TadaMVL-TadaMVLUITests/Pods-TadaMVL-TadaMVLUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		463329E5A827ECAD8A59BE21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TadaMVL-TadaMVLUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E4D157EA46E212125029DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TadaMVL/Pods-TadaMVL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TadaMVL/Pods-TadaMVL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TadaMVL/Pods-TadaMVL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F5548E7EAAC8611558B4AAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TadaMVLTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E94101713D9C3CDA1ABB97BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TadaMVL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4878DD6D2FB0AFBE00E0A016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4878DD7A2FB0AFBF00E0A016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4878DD842FB0AFBF00E0A016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4878DD802FB0AFBF00E0A016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4878DD702FB0AFBE00E0A016 /* TadaMVL */;
+			targetProxy = 4878DD7F2FB0AFBF00E0A016 /* PBXContainerItemProxy */;
+		};
+		4878DD8A2FB0AFBF00E0A016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4878DD702FB0AFBE00E0A016 /* TadaMVL */;
+			targetProxy = 4878DD892FB0AFBF00E0A016 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4878DD902FB0AFBF00E0A016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4878DD912FB0AFBF00E0A016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4878DD932FB0AFBF00E0A016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3FB7593B1D23A9EBCFA8725 /* Pods-TadaMVL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TadaMVL/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show air quality data.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SA.TadaMVL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4878DD942FB0AFBF00E0A016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE67835BA3E513DC2BD36B7 /* Pods-TadaMVL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TadaMVL/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show air quality data.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SA.TadaMVL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4878DD962FB0AFBF00E0A016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420BE306F7B65610418A0EC9 /* Pods-TadaMVLTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SA.TadaMVLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TadaMVL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TadaMVL";
+			};
+			name = Debug;
+		};
+		4878DD972FB0AFBF00E0A016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C6977C74ED214D6E202C88 /* Pods-TadaMVLTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SA.TadaMVLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TadaMVL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TadaMVL";
+			};
+			name = Release;
+		};
+		4878DD992FB0AFBF00E0A016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CBFD968299A49CA7A7CCBEF /* Pods-TadaMVL-TadaMVLUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SA.TadaMVLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TadaMVL;
+			};
+			name = Debug;
+		};
+		4878DD9A2FB0AFBF00E0A016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B5A760B2B388959485329D /* Pods-TadaMVL-TadaMVLUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SA.TadaMVLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TadaMVL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4878DD6C2FB0AFBE00E0A016 /* Build configuration list for PBXProject "TadaMVL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4878DD902FB0AFBF00E0A016 /* Debug */,
+				4878DD912FB0AFBF00E0A016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4878DD922FB0AFBF00E0A016 /* Build configuration list for PBXNativeTarget "TadaMVL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4878DD932FB0AFBF00E0A016 /* Debug */,
+				4878DD942FB0AFBF00E0A016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4878DD952FB0AFBF00E0A016 /* Build configuration list for PBXNativeTarget "TadaMVLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4878DD962FB0AFBF00E0A016 /* Debug */,
+				4878DD972FB0AFBF00E0A016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4878DD982FB0AFBF00E0A016 /* Build configuration list for PBXNativeTarget "TadaMVLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4878DD992FB0AFBF00E0A016 /* Debug */,
+				4878DD9A2FB0AFBF00E0A016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4878DD692FB0AFBE00E0A016 /* Project object */;
+}

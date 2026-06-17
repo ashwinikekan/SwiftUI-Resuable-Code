@@ -1,0 +1,6 @@
+framework module Pods_TadaMVL {
+  umbrella header "Pods-TadaMVL-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_TadaMVLTests {
+  umbrella header "Pods-TadaMVLTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

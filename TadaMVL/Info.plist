@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We use your location to show air quality data near you.</string>
+	<key>AQI_TOKEN</key>
+	<string>6149975db1e6c9b112e776fe6c520ea5061ab767</string>
+</dict>
+</plist>
